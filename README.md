@@ -41,27 +41,8 @@ Jaringan lokal masing-masing gedung menggunakan subnet IPv4 yang berbeda. Pertuk
 
 Topologi terdiri atas tiga jaringan LAN dan tiga koneksi point-to-point ant router.
 
-```text
-                         GEDUNG C — RUANG SERVER
-                    Server0       PC8 (Admin)
-                       \             /
-                         Switch6
-                            |
-                         Router2
-                         /     \
-               A–C link /       \ B–C link
-                       /         \
-                  Router0 ------ Router1
-                     A–B link
-                    /             \
-                Switch0           Switch3
-                /    \             /    \
-            Switch1 Switch2    Switch4 Switch5
-              / \     / \        / \     / \
-            PC0 PC1 PC2 PC3    PC4 PC5 PC6 PC7
+<img width="885" height="691" alt="image" src="https://github.com/user-attachments/assets/7633748b-3f85-44d6-a20a-189c98bf2ec0" />
 
-          GEDUNG A — RUANG KELAS       GEDUNG B — LABORATORIUM
-```
 
 **Keterangan hubungan ant router:**
 
